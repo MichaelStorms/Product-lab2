@@ -1,6 +1,7 @@
 <?php
     require_once('bootstrap.php');
     $posts = new Post;
+    //
     $posts = $posts->show();
 ?>
 <html lang="en">
