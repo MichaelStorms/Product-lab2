@@ -17,13 +17,15 @@
 <?php include 'nav.inc.php'; ?>
 <h1>Recent posts</h1>
 <?php foreach($posts as $p): ?>
-<!--
-<h2></h2>
-<img>
-<p>text</p>
-<div><ul>lijst gegevens</ul></div>
-<div><ul>bijdrage gemeente</ul></div>
- -->
+<?php 
+/*
+echo "<h2>$p['title']</h2>";
+echo "<img>";
+echo "<p>$p['text']</p>";
+echo "<div><ul>$p['details']</ul></div>";
+echo "<div><ul>$p['gemeente']</ul></div>";
+*/
+ ?>
 <?php endforeach;?>
 </body>
 </html>
